@@ -5,7 +5,7 @@ using UnityEngine;
 public class GoldCoin : MonoBehaviour
 {
     //Goldcoins fungerar inte
-    public int goldscore = 5;
+    public int goldScore = 5;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -19,7 +19,7 @@ public class GoldCoin : MonoBehaviour
                 ScoreTracker tracker = controller.GetComponent<ScoreTracker>();
                 if (tracker != null)
                 {
-                    tracker.totalScore += goldscore;
+                    tracker.totalScore += goldScore;
                 }
                 else
                 {

@@ -9,7 +9,7 @@ public class GenericKill : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            Destroy(transform.parent.gameObject);
+            Destroy(transform.parent.gameObject); //förstör objektet och dens children
         }
     }
 

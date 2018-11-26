@@ -12,7 +12,7 @@ public class Victory : MonoBehaviour
         if (collision.tag == "Player")
         {
             Debug.Log("YAY");
-            SceneManager.LoadScene("Level 2");
+            SceneManager.LoadScene("Level 2"); //laddar in nästa level
         }
     }
 }

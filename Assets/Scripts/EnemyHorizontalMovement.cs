@@ -11,7 +11,7 @@ public class EnemyHorizontalMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Border")
+        if (collision.tag == "Border") //när objectet nuddar Border objekten så ändras isLeft så att objektets sprite byter håll 
         {
             if (isLeft == true)
             {
@@ -40,11 +40,11 @@ public class EnemyHorizontalMovement : MonoBehaviour
         rbody = GetComponent<Rigidbody2D>();
         if (isLeft == true)
         {
-            rbody.velocity = new Vector2(-moveSpeedSlime, rbody.velocity.y);
+            rbody.velocity = new Vector2(-moveSpeedSlime, rbody.velocity.y); //byter håll på slimen
         }
         else
         {
-            rbody.velocity = new Vector2(moveSpeedSlime, rbody.velocity.y);
+            rbody.velocity = new Vector2(moveSpeedSlime, rbody.velocity.y); //byter håll på slimen
         }
     }
 

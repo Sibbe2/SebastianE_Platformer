@@ -11,7 +11,7 @@ public class BlueKey : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            GameObject[] holes = GameObject.FindGameObjectsWithTag("Keyhole");
+            GameObject[] holes = GameObject.FindGameObjectsWithTag("Keyhole"); //hittar alla gameobjects med Keyhole taget och förstör dem 
             foreach (GameObject item in holes)
             {
                 Destroy(item);

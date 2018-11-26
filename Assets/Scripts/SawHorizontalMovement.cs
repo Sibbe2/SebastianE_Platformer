@@ -7,7 +7,7 @@ public class SawHorizontalMovement : MonoBehaviour {
     public bool isLeft = true;
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision) //när objectet nuddar Border objekten så ändras isLeft så att objektets sprite byter håll 
     {
         if (collision.tag == "Border")
         {
@@ -39,12 +39,12 @@ public class SawHorizontalMovement : MonoBehaviour {
 
         if (isLeft == true)
         {
-            rbody.velocity = new Vector2(-moveSpeedSaw, rbody.velocity.y);
+            rbody.velocity = new Vector2(-moveSpeedSaw, rbody.velocity.y); //byter håll på saw
 
         }
         else
         {
-            rbody.velocity = new Vector2(moveSpeedSaw, rbody.velocity.y);
+            rbody.velocity = new Vector2(moveSpeedSaw, rbody.velocity.y); //byter håll på saw
 
         }
     }

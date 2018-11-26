@@ -40,7 +40,7 @@ GameObject:
   m_Layer: 12
   m_Name: EnemyBorder
   m_TagString: Border
-  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -96,7 +96,7 @@ GameObject:
   m_Layer: 12
   m_Name: EnemyBorder (1)
   m_TagString: Border
-  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -147,7 +147,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1139903625665890}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.92, y: -0.39, z: -0.09944864}
+  m_LocalPosition: {x: -7.01, y: -0.39, z: -0.09944864}
   m_LocalScale: {x: 0.325, y: 0.3875, z: 1}
   m_Children: []
   m_Father: {fileID: 4715264986238394}

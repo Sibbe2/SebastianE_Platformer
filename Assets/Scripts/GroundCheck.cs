@@ -9,11 +9,11 @@ public class GroundCheck : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        touches++;
+        touches++; //den gör så att om FeetGrounded nuddar marken så blir touches positiv (se PlayerMovement)
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        touches--;
+        touches--; //den gör så att om FeetGrounded inte nuddar marken så blir touches negativ
     }
 }
