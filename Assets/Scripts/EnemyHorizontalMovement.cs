@@ -15,12 +15,12 @@ public class EnemyHorizontalMovement : MonoBehaviour
         {
             if (isLeft == true)
             {
-                isLeft = !isLeft;
+                isLeft = !isLeft; //ändrar isLeft till motsattsen när den nuddar något object med tagen "Border" roterar även slimen
                 transform.Rotate(0, 180, 0);
             }
             else
             {
-                isLeft = !isLeft;
+                isLeft = !isLeft; //ändrar isLeft till motsattsen när den nuddar något object med tagen "Border" roterar även slimen
                 transform.Rotate(0, 180, 0);
             }
 
@@ -47,13 +47,4 @@ public class EnemyHorizontalMovement : MonoBehaviour
             rbody.velocity = new Vector2(moveSpeedSlime, rbody.velocity.y); //byter håll på slimen
         }
     }
-
-    //void Move(bool flip)
-    //{
-    //    if(flip == true)
-    //    {
-    //        isLeft = !isLeft;
-    //    }
-    //    isLeft = !isLeft;
-    //}
 }

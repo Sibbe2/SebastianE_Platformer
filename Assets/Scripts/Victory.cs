@@ -5,14 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Victory : MonoBehaviour
 {
-    public string levelToLoad = "Level 2";
+    public string nextLevel = "Level 2"; //loadar nästa level genom levelToLoad
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            Debug.Log("YAY");
-            SceneManager.LoadScene("Level 2"); //laddar in nästa level
+            SceneManager.LoadScene(nextLevel); //laddar in nästa level
         }
     }
 }
