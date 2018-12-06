@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour {
         {
             if (groundCheck.touches > 0) // om touches är positiv så kan man inte hoppa, alltså när man är i luften
             {
-            rbody.velocity = new Vector2(rbody.velocity.x, jumpHeight); //ändrar players y med jumpheight
+            rbody.velocity = new Vector2(rbody.velocity.x, jumpHeight); //ändrar players x med jumpheight alltså hoppar man
             }
 
         }

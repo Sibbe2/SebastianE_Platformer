@@ -9,7 +9,7 @@ public class GenericKillEnemy : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            Destroy(transform.parent.gameObject); //förstör collidern vid toppen av fiende objektet och dens parent när denna collidern nuddar "Player"
+            Destroy(transform.parent.gameObject); //finns på collidern på toppen av enemyn som när den triggas förstör sig själv och dens parent
         }
     }
 }

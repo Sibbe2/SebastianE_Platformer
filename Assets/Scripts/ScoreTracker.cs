@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro; // <-- namespace
+using TMPro; // <-- namespace, så att man kan använda 
 //using UnityEngine.UI
 
 public class ScoreTracker : MonoBehaviour
 {
-    public TextMeshProUGUI scoreText; 
+    public TextMeshProUGUI scoreText; //texten i det högra hörnet av skärmen
     public int totalScore; //all score som samlats under denna scenen
 
     private void Update()

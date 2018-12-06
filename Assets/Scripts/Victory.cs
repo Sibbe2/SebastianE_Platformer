@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Victory : MonoBehaviour
 {
-    public string nextLevel = "Level 2"; //loadar nästa level genom levelToLoad
+    public string nextLevel = "Level 2"; //loadar nästa level genom variabeln nextLevel
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

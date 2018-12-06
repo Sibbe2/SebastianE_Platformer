@@ -22,7 +22,7 @@ public class Coin : MonoBehaviour
                 }
                 else
                 {
-                    Debug.LogError("Score Tracker saknas på GameController");
+                    Debug.LogError("Score Tracker saknas på GameController"); 
                 }
             }
             else

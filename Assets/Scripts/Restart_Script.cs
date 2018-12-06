@@ -10,7 +10,7 @@ public class Restart_Script : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.Space))
         {
-            SceneManager.LoadScene("SampleScene"); // fungerar vid "Platformer_Restart" som loadar första leven "SampleScene"
+            SceneManager.LoadScene("SampleScene"); //finns på leveln "Platformer_Restart" som loadar första leven "SampleScene"
         }
     }
 }

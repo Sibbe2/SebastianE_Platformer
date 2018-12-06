@@ -7,6 +7,7 @@ public class EnemyHorizontalMovement : MonoBehaviour
 
     public float moveSpeedSlime = 2f;
     public bool isLeft = true;
+    private Rigidbody2D rbody;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -26,13 +27,6 @@ public class EnemyHorizontalMovement : MonoBehaviour
 
 
         }
-    }
-
-    private Rigidbody2D rbody;
-    // Use this for initialization
-    void Start()
-    {
-        //Move(false);
     }
 
     private void Update()

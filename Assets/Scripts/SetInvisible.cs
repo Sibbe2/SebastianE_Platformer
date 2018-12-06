@@ -8,7 +8,7 @@ public class SetInvisible : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        GetComponent<SpriteRenderer>().enabled = false; //gör objektet osynligt utanför editorn
+        GetComponent<SpriteRenderer>().enabled = false; //gör objektet osynligt när spelaren är i spelet
     }
 
     // Update is called once per frame
